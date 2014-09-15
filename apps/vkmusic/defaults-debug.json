@@ -1,0 +1,66 @@
+{
+    "rules": [
+        {
+            "motd": {
+                "msg": "Дорогие пользователи, вам нравится приложение? Пожалуйста, уделите минутку и оставьте свой отзыв!",
+                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=549439059",
+                "act": "5 звезд",
+                "idc": "rt22jul"
+            },
+            "loc": "RU",
+            "com.bfx.cii": 120,
+            "cii": 120
+        },
+        {
+        	"motd": {
+        		"msg": "Уважаемые пользователи, если Вы хотите загружать треки, то используйте QWE!",
+        		"lnk": "https://itunes.apple.com/app/id893246605",
+        		"act": "Скачать"
+    		},
+        	"sch": "fmd",
+            "loc": "RU"
+        },
+        {
+            "motd": {
+                "msg": "Вам нравится приложение? Пожалуйста, уделите минутку и оставьте свой отзыв!",
+                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=549439059",
+                "act": "5 звезд",
+                "idc": "rt23jul"
+            },
+            "loc": "RU"
+        },
+
+
+        
+        {
+            "motd": {
+                "msg": "Уважаемые пользователи, если Вы хотите загружать треки, то используйте QWE!",
+                "lnk": "https://itunes.apple.com/app/id893246605",
+                "act": "Скачать"
+            },
+            "sch": "fmd",
+            "loc": "RU"
+        },
+        {
+            "motd": {
+                "msg": "Дорогие пользователи, вам нравится приложение? Пожалуйста, уделите минутку и оставьте свой отзыв!",
+                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=549439059",
+                "act": "5 звезд",
+                "idc": "rt23jul"
+            },
+            "loc": "RU"
+        },
+        ,
+        {
+            "motd": {
+                "msg": "Дорогие пользователи, вам нравится приложение? Пожалуйста, уделите минутку и оставьте свой отзыв!",
+                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=549439059",
+                "act": "5 звезд",
+                "idc": "rt22jul"
+            },
+            "loc": "RU",
+            "com.bfx.cii": 120,
+            "cii": 120
+        }
+    ]
+}

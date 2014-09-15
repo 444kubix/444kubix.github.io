@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "blacklistedHosts": [
+        "youtube.com",
+        "googlevideo.com",
+        "soundcloud.com",
+        "mp3skull.com",
+        "mp3monkey.com",
+        "soundowl.com"
+      ],
+      "cii": 132,
+      "cri": 200
+    },
+	  {
+      "disabledMimes":[],
+      "loc": "RU",
+      "cii": 132,
+      "cri": 200
+	  }
+  ]
+}

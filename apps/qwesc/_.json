@@ -1,0 +1,136 @@
+{
+    "rules": [
+        {
+            "dflt": {
+                "sckey": "f23ce77b27bfdcdd8b04e8845959d564"
+            },
+            "ssl": 0
+        },
+
+        {
+            "cii": 130,
+            "com.bfx.cii": 130
+        },
+
+        {
+            "cii": 130,
+            "com.bfx.cii": 130,
+            "motd": {
+                "msg": "Dear users! We have fixes an issue as promised. Please update to the latest version and enjoy the music!",
+                "lnk": "https://itunes.apple.com/app/id893246605",
+                "act": "Update"
+            },
+            "loc": "US",
+            "ver": 100
+        },
+        {
+            "cii": 90,
+            "com.bfx.cii": 90,
+            "motd": {
+                "msg": "Дорогие пользователи, мы все поправили! Пожалуйста, обновитесь до последней версии.",
+                "lnk": "https://itunes.apple.com/app/id893246605",
+                "act": "Обновить"
+            },
+            "loc": "RU",
+            "ver": 100
+        },
+
+        
+        {
+            "cii": 90,
+            "com.bfx.cii": 90,
+            "motd": {
+                "msg": "Дорогие пользователи, вам нравится приложение? Пожалуйста, уделите минутку и оставьте свой отзыв!",
+                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",
+                "act": "5 звезд",
+                "idc": "rt29jul"
+            },
+            "loc": "RU",
+            "rnc": 1
+        },
+        {
+            "cii": 120,
+            "com.bfx.cii": 99,
+            "motd": {
+                "msg": "Dear users, like the update? We got everything fixed, more features coming soon. Please help us to get discovered - rate us.",
+                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",
+                "act": "5 stars",
+                "idc": "rt29jul"
+            },
+            "loc": "US",
+            "rnc": 1
+        },
+        {
+            "cii": 99,
+            "com.bfx.cii": 99,
+            "motd": {
+                "msg": "Si vous aimez utiliser QWE, n'oubliez pas de voter sur l'App Store. Cela ne prend qu'une minute. Merci d'avance pour votre soutien !",
+                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",
+                "act": "5 étoiles",
+                "idc": "rt29jul"
+            },
+            "loc": "FR",
+            "rnc": 1
+        },
+        {
+            "cii": 99,
+            "com.bfx.cii": 99,
+            "motd": {
+                "msg": "Wenn dir QWE gefällt, würdest Du es bitte bewerten? Dies wird nicht länger als eine Minute dauern. Danke für die Unterstützung!",
+                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",
+                "act": "5 Sterne",
+                "idc": "rt29jul"
+            },
+            "loc": "DE",
+            "rnc": 1
+        },
+        {
+            "cii": 99,
+            "com.bfx.cii": 99,
+            "motd": {
+                "msg": "Se ti piace usare QWE, perché non gli dai un voto? Non ci vorrà più di un minuto. Grazie per il tuo supporto!",
+                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",
+                "act": "5 stars",
+                "idc": "rt29jul"
+            },
+            "loc": "IT",
+            "rnc": 1
+        },
+        {
+            "cii": 99,
+            "com.bfx.cii": 99,
+            "motd": {
+                "msg": "Si te gusta QWE, ¿podrías escribirnos una reseña? No te tomará más de un minuto. ¡Gracias por tu apoyo!",
+                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",
+                "act": "5 estrellas",
+                "idc": "rt29jul"
+            },
+            "loc": "ES",
+            "rnc": 1
+        },
+        {
+            "cii": 99,
+            "com.bfx.cii": 99,
+            "motd": {
+                "msg": "QWE をお使いいただき大変ありがとうございます。もしよろしければ1分程で済みますので、このアプリの評価をお願いします。ご協力感謝いたします！",
+                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",
+                "act": "5つ星",
+                "idc": "rt29jul"
+            },
+            "loc": "JP",
+            "rnc": 1
+        },
+        {
+            "cii": 99,
+            "com.bfx.cii": 99,
+            "motd": {
+                "msg": "如果您觉得“QWE”很好用，可否为其评一个分数？评分过程只需花费很少的时间。感谢您的支持！",
+                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",
+                "act": "5颗星",
+                "idc": "rt29jul"
+            },
+            "loc": "CN",
+            "rnc": 1
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="/gos/css/style.css">
+
+</head>
+<body>
+
+<div id="content" class="container preview-contents">
+<div id="pageFooter">Page </div>
+
+<h2 id="постановка-краевых-задач-для-уравнения-теплопроводности.-метод-разделения-переменных-для-решения-1-ой-краевой-задачи.">30. Постановка краевых задач для уравнения теплопроводности. Метод разделения переменных для решения 1-ой краевой задачи.</h2>
+<p><span class="math">\(\left\{\matrix{{u_{tt} =a^{2} u_{xx} } \cr {u(x,0)=\varphi (x)} \cr {u_{t} (x,0)=\psi (x)}}\right. \left(*\right)\)</span> Уравнение характеристики: <span class="math">\(dx^{2} -a^{2} dt^{2} =0\Rightarrow \)</span> <span class="math">\(\left\{\matrix{{dx-adt=0} \cr {dx+adt=0}}\right. \Rightarrow \)</span> <span class="math">\(\left\{\matrix{{x-at=C1} \cr {x+at=C2}}\right. \)</span></p>
+<p>Сделаем замену переменных:</p>
+<p><span class="math">\(\left\{\matrix{{\xi =x-at} \cr {\eta =x+at}}\right. \Rightarrow u_{\xi \eta } =0\)</span> <span class="math">\[{\partial u\over \partial x} ={\partial u\over \partial \xi } {\partial \xi \over \partial x} +{\partial u\over \partial \eta } {\partial \eta \over \partial x} ={\partial u\over \partial \xi } +{\partial u\over \partial \eta } ; {\partial u\over \partial t} =a({\partial u\over \partial \xi } +{\partial u\over \partial \eta } )\]</span> <span class="math">\[{\partial ^{2} u\over \partial x^{2} } ={\partial ^{2} u\over \partial \xi ^{2} } +2{\partial ^{2} u\over \partial \xi \partial \eta } +{\partial ^{2} u\over \partial \eta ^{2} } ;   {\partial ^{2} u\over \partial t^{2} } =a^{2} ({\partial ^{2} u\over \partial \xi ^{2} } -2{\partial ^{2} u\over \partial \xi \partial \eta } +{\partial ^{2} u\over \partial \eta ^{2} } )\]</span> <span class="math">\(\forall \)</span> решение <span class="math">\(u_{\eta } (\xi ,\eta )=f^{*} (\eta )\Rightarrow u(\xi ,\eta )=\int f^{*} (\eta ) d\eta +f_{1} (\xi )=f_{1} (\xi )+f_{2} (\eta )\left(**\right)\)</span></p>
+<p>Т.о. <span class="math">\(\forall \)</span> решение уравнения <span class="math">\(u_{\xi \eta } \)</span>= 0 м.б. представлено в виде (**), т.е. есть функции <span class="math">\(f_{1} ,f_{2} \Rightarrow \left(**\right)\)</span> - общий интеграл уравнения <span class="math">\(u_{\xi \eta } =0\Rightarrow \)</span>Найдем функции <span class="math">\(f_{1} ,f_{2} \)</span>: <span class="math">\[\left\{\matrix{{u(x,t)=f_{1} (x+at)+f_{2} (x-at)} \cr {u(x,0)=f_{1} (x)+f_{2} (x)=\varphi (x)} \cr {u_{t} (x,0)=af_{1} ^{{&#39;} } (x)-af_{2} ^{{&#39;} } (x)=\psi (x)}}\right. \Rightarrow f_{1} (x)-f_{2} (x)={1\over a} \int _{x_{0} }^{x}\psi (\alpha )d\alpha +C \Rightarrow \]</span> <span class="math">\[f_{1} (x)={1\over 2} \varphi (x)+{1\over 2a} \int _{x0}^{x}\psi (\alpha )d\alpha +{C\over 2}  ;f_{2} (x)={1\over 2} \varphi (x)-{1\over 2a} \int _{x_{0} }^{x}\psi (\alpha )d\alpha -{C\over 2}  \Rightarrow \]</span> <span class="math">\(u(x,t)=f_{1} (x+at)+f_{2} (x-at)={\varphi (x+at)+\varphi (x-at)\over 2} +{1\over 2a} [\int _{x_{0} }^{x+at}\psi (\alpha )d\alpha  -\int _{x_{0} }^{x-at}\psi (\alpha )d\alpha  ]=\)</span> <span class="math">\({\varphi (x+at)+\varphi (x-at)\over 2} +{1\over 2a} \int _{x-at}^{x+at}\psi (\alpha )d\alpha  \)</span> - формула Даламбера</p>
+<p>Если в формуле Даламбера <span class="math">\(\varphi \)</span>- дважды непрерывно дифференцируема, <span class="math">\(\psi \)</span>- непрерывно дифференцируема, удовлетворяют уравнению и краевым условиям <span class="math">\(\left(*\right)\Rightarrow \exists !\)</span> решение, определяемое формулой Даламбера.</p>
+<hr>
+
+<p><a href="http://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD_%D0%93%D1%83%D0%BA%D0%B0">Закон Гука</a>:</p>
+<blockquote>
+<p>Сила упругости, возникающая в теле при его деформации, прямо пропорциональна величине этой деформации: <span class="math">\(F = k \Delta l\)</span></p>
+</blockquote>
+
+</div>
+
+<script type="text/x-mathjax-config"> 
+MathJax.Hub.Config({
+  skipStartupTypeset: false,
+
+  lazytex2jax: {
+    displayMath: [['$','$'], ['\\[','\\]']],
+    inlineMath: [['\\(','\\)']],
+  },
+
+ }); 
+</script>
+
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<script src="/gos/js/jquery.min.js"></script>
+
+
+</body>
+</html>

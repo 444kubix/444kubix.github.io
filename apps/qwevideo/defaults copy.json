@@ -1,0 +1,52 @@
+{
+  "rules": [
+    {
+      "blacklistedHosts": [
+        "youtube.com",
+        "googlevideo.com",
+        "soundcloud.com",
+        "mp3skull.com",
+        "mp3monkey.com",
+        "soundowl.com"
+      ],
+      "cii": 132,
+      "cri": 200
+    },
+	  {
+      "disabledMimes":[],
+      "loc": "RU"
+	  },
+    {
+      "motd":{
+          "msg": "Мы только что выпустили новый загрузчик музыки! (сегодня бесплатно)",
+          "lnk": "http://itunes.apple.com/app/id893246605",
+          "act": "Скачать",
+      },
+      "sch": "fmd"
+    }
+  ],
+  "msgs": [
+      {
+          "aps": {
+              "alert": "Мы только что выпустили новый загрузчик музыки! (сегодня бесплатно)"
+          },
+          "bfx": {
+              "lnk": "http://itunes.apple.com/app/id893246605",
+              "act": "Скачать",
+              "sch": "fmd"
+          }
+      }
+  ]
+
+
+  
+    {
+        "motd": {
+            "msg": "Дорогие пользователи, вам нравится приложение? Пожалуйста, уделите минутку и оставьте свой отзыв!",
+            "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=670370768",
+            "act": "5 звезд",
+            "idc": "rt24jul"
+        },
+        "loc": "RU"
+    },
+}

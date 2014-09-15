@@ -1,0 +1,14 @@
+{
+  "com.bfx.motd": {
+     "aps": {
+       "alert": "Мы только что выпустили новый загрузчик музыки! (сегодня бесплатно)"
+     },
+     "bfx": {
+      "lnk": "http://itunes.apple.com/app/id893246605",
+      "act": "Скачать",
+      "sch": "fmd"
+    }
+  },
+  "com.bfx.cii": 132,
+  "com.bfx.cri": 200
+}

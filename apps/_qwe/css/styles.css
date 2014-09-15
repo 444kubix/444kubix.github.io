@@ -1,0 +1,1 @@
+.container{margin:20px 0;font-family:sans-serif}.container h1{font-weight:500}hr{margin:10px 0}@media (max-width: 480px){.container h1{font-size:18px;margin:10px 0}}@media (min-width: 480px){.container{max-width:768px;margin:40px auto}.container h1{font-size:24px;margin:10px 0}.container p{font-size:16px}}
